@@ -14589,7 +14589,7 @@
          @property {Object} query
          */
     var query = {
-      query_string: {}
+      query_string: {"lowercase_expanded_terms":false}
     };
 
     query.query_string.query = qstr;
